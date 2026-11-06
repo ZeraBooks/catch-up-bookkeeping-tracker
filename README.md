@@ -5,7 +5,7 @@ Catch-up bookkeeping fills in months that were never recorded. You start from th
 What's here:
 
 - A one-row-per-account-per-month tracker layout, as a spec and a JSON Schema ([`SPEC.md`](SPEC.md), [`schema/`](schema/))
-- Eleven rules with IDs, split into file errors, work still to do, and work done out of order ([`rules/tracker-rules.csv`](rules/tracker-rules.csv))
+- Eleven rules with IDs. Some are file errors, some are work still to do, and one flags work done out of order ([`rules/tracker-rules.csv`](rules/tracker-rules.csv))
 - A checker that validates the tracker, lists missing statements with the net change each gap must hold, flags months that don't tie, and writes a statement request list ([`cli/catch_up_check.py`](cli/catch_up_check.py))
 - Four fictional businesses at different stages, and seven trackers that fail on purpose ([`samples/`](samples/))
 - The blank template, the checklist and the original `catch_up_status.py`, unchanged

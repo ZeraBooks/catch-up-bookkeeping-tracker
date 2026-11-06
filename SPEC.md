@@ -7,6 +7,7 @@ A catch-up tracker is one CSV with one row per account per month. This spec defi
 - UTF-8, comma separated, one header row.
 - Header exactly: `Account,Month,Statement received,Printed opening,Printed closing,Imported,Reconciled,Books closing,Notes` (CU-001).
 - Rows with every cell blank are ignored, so the blank template can keep empty rows.
+- Balances are plain numbers with two decimals, no dollar sign and no thousands comma (CU-005).
 
 ## Columns
 
