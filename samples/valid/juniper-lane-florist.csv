@@ -1,0 +1,25 @@
+Account,Month,Statement received,Printed opening,Printed closing,Imported,Reconciled,Books closing,Notes
+Checking 3318,2025-11,Yes,,18240.55,Yes,Yes,18240.55,Last month you trust
+Checking 3318,2025-12,Yes,18240.55,19455.95,Yes,Yes,19455.95,
+Checking 3318,2026-01,Yes,19455.95,16551.83,Yes,Yes,16551.83,
+Checking 3318,2026-02,Yes,16551.83,19938.89,Yes,Yes,19938.89,
+Checking 3318,2026-03,No,,,No,No,,Requested from the bank
+Checking 3318,2026-04,No,,,No,No,,Requested from the bank
+Checking 3318,2026-05,Yes,21400.47,20984.57,No,No,,
+Checking 3318,2026-06,Yes,20984.57,22963.01,No,No,,
+Checking 3318,2026-07,Yes,22963.01,19756.20,No,No,,
+Checking 3318,2026-08,Yes,19756.20,22267.27,Yes,Yes,22267.27,
+Checking 3318,2026-09,Yes,22267.27,21578.98,No,No,,
+Checking 3318,2026-10,Yes,21578.98,22623.61,No,No,,
+Visa 7702,2025-11,Yes,,4118.20,Yes,Yes,4118.20,Last month you trust. Card balances are amounts owed
+Visa 7702,2025-12,Yes,4118.20,3505.75,Yes,Yes,3505.75,
+Visa 7702,2026-01,Yes,3505.75,4383.05,Yes,Yes,4383.05,
+Visa 7702,2026-02,Yes,4383.05,3362.87,Yes,No,3362.87,
+Visa 7702,2026-03,Yes,3362.87,3818.49,No,No,,
+Visa 7702,2026-04,Yes,3818.49,3517.42,No,No,,
+Visa 7702,2026-05,Yes,3517.42,4207.36,No,No,,
+Visa 7702,2026-06,Yes,4207.36,3962.85,No,No,,
+Visa 7702,2026-07,Yes,3962.85,4475.21,No,No,,
+Visa 7702,2026-08,Yes,4475.21,3604.81,No,No,,
+Visa 7702,2026-09,Yes,3604.81,3934.96,No,No,,
+Visa 7702,2026-10,Yes,3934.96,3736.94,No,No,,

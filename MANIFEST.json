@@ -1,0 +1,100 @@
+{
+  "name": "catch-up-bookkeeping-tracker",
+  "version": "1.1.0",
+  "released": "2026-11-06",
+  "publisher": "Zera Books Inc. (ZeraBooks)",
+  "homepage": "https://www.zerabooks.com/catch-up-bookkeeping",
+  "repository": "https://github.com/ZeraBooks/catch-up-bookkeeping-tracker",
+  "license_code": "MIT",
+  "license_data": "CC-BY-4.0",
+  "fictional_data": true,
+  "file_counts": {
+    "rules": 1,
+    "samples": 12,
+    "schema": 1
+  },
+  "files": [
+    {
+      "path": "rules/tracker-rules.csv",
+      "bytes": 2089,
+      "sha256": "9ea6526d9313603c2cc1ffb7b58a2f0f3f415c2826eeb9e88b7dc700d0f594d9",
+      "rows": 11
+    },
+    {
+      "path": "samples/invalid/dollar-sign-in-balance.csv",
+      "bytes": 340,
+      "sha256": "e9072954424e3db3d63252990fc393648a4fdd936eeaefa46df0b767d5234b49",
+      "rows": 4
+    },
+    {
+      "path": "samples/invalid/expected.json",
+      "bytes": 284,
+      "sha256": "1201cb61e08c69eed74664b671034e7c6ea38db6f7ea8519ffc58f302c2093e2"
+    },
+    {
+      "path": "samples/invalid/missing-books-closing-column.csv",
+      "bytes": 304,
+      "sha256": "ae1cb5874b12a1507c4b3bde45763d7f54a0f263a514881ff6ff5f27313cc9a5",
+      "rows": 4
+    },
+    {
+      "path": "samples/invalid/month-not-yyyy-mm.csv",
+      "bytes": 337,
+      "sha256": "abc235fe098c60c0f59b9ce1e46939a9c7f0bb95781935c4787563c13005d3b0",
+      "rows": 4
+    },
+    {
+      "path": "samples/invalid/received-without-opening.csv",
+      "bytes": 329,
+      "sha256": "cdbc175826cd756f5abfe4d998db7ec0c46710453e75600ea3515069eb36ef4e",
+      "rows": 4
+    },
+    {
+      "path": "samples/invalid/reconciled-but-not-tied.csv",
+      "bytes": 336,
+      "sha256": "b902af3e6ff1e7b359803da9d4d18650401e09fd00d857cf112dd646fa00e9ea",
+      "rows": 4
+    },
+    {
+      "path": "samples/invalid/same-month-twice.csv",
+      "bytes": 386,
+      "sha256": "3b8d228d3be19544dd16079ecad3975df092a8e5c6300158e619c9fc6f7f8c99",
+      "rows": 5
+    },
+    {
+      "path": "samples/invalid/yes-no-typo.csv",
+      "bytes": 334,
+      "sha256": "a497644b812409e87e2765e2d53e675324e3e755f383574644265ac1618b41c0",
+      "rows": 4
+    },
+    {
+      "path": "samples/valid/brook-and-vale-cafe.csv",
+      "bytes": 338,
+      "sha256": "9e093d47435af95f12f8c411cda720a9c90e6e2bfd6a9989161eabf1c95507d9",
+      "rows": 4
+    },
+    {
+      "path": "samples/valid/halden-bike-repair.csv",
+      "bytes": 1718,
+      "sha256": "6bfc15ea552f42ecce9b7f917a2b5306fa2236f90a15e091aa23cea2dd970f71",
+      "rows": 29
+    },
+    {
+      "path": "samples/valid/juniper-lane-florist.csv",
+      "bytes": 1435,
+      "sha256": "965b92f0443dee63015aec7a49bbe1b08db35e44245b2ddb91f06ebb39e04c47",
+      "rows": 24
+    },
+    {
+      "path": "samples/valid/pinecrest-tutoring.csv",
+      "bytes": 354,
+      "sha256": "c33eea9f41e52b4d7b1f237e26fa70170d3cbe75b61308ec937dedc1063d67ac",
+      "rows": 4
+    },
+    {
+      "path": "schema/catch-up-tracker.schema.json",
+      "bytes": 2304,
+      "sha256": "e2662217524fd4cdd4482e33979ea94edebfbfaa765e54b33ca809f796d68fee"
+    }
+  ]
+}

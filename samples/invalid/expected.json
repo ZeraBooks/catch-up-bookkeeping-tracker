@@ -1,0 +1,9 @@
+{
+  "dollar-sign-in-balance.csv": "CU-005",
+  "missing-books-closing-column.csv": "CU-001",
+  "month-not-yyyy-mm.csv": "CU-002",
+  "received-without-opening.csv": "CU-004",
+  "reconciled-but-not-tied.csv": "CU-006",
+  "same-month-twice.csv": "CU-002",
+  "yes-no-typo.csv": "CU-003"
+}

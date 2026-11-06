@@ -1,0 +1,30 @@
+Account,Month,Statement received,Printed opening,Printed closing,Imported,Reconciled,Books closing,Notes
+Checking 2201,2025-12,Yes,,22418.60,Yes,Yes,22418.60,Last month you trust
+Checking 2201,2026-01,Yes,22418.60,19902.15,Yes,Yes,19902.15,
+Checking 2201,2026-02,Yes,19902.15,21355.40,Yes,Yes,21355.40,
+Checking 2201,2026-03,Yes,21355.40,18770.95,Yes,No,18686.95,
+Checking 2201,2026-04,No,,,No,No,,
+Checking 2201,2026-05,Yes,20114.30,23006.80,No,No,,
+Checking 2201,2026-06,Yes,23006.80,21447.12,No,No,,
+Checking 2201,2026-07,Yes,21447.12,24980.55,No,No,,
+Checking 2201,2026-08,Yes,24980.55,22615.09,No,No,,
+Checking 2201,2026-09,Yes,22615.09,25302.44,No,No,,
+Savings 2219,2025-12,Yes,,10000.00,Yes,Yes,10000.00,Last month you trust
+Savings 2219,2026-01,Yes,10000.00,10004.17,Yes,Yes,10004.17,
+Savings 2219,2026-02,Yes,10004.17,10008.35,Yes,Yes,10008.35,
+Savings 2219,2026-03,Yes,10008.35,7012.20,Yes,Yes,7012.20,3000.00 moved to checking
+Savings 2219,2026-04,Yes,7012.20,7015.12,No,No,,
+Savings 2219,2026-05,Yes,7015.12,7018.05,No,No,,
+Savings 2219,2026-06,Yes,7018.05,7020.98,No,No,,
+Savings 2219,2026-07,Yes,7020.98,7023.91,No,No,,
+Savings 2219,2026-08,Yes,7023.91,7026.84,No,No,,
+Savings 2219,2026-09,Yes,7026.84,7029.77,No,No,,
+Visa 5530,2025-12,Yes,,3212.48,Yes,Yes,3212.48,Last month you trust. Card balances are amounts owed
+Visa 5530,2026-01,Yes,3212.48,2876.10,Yes,Yes,2876.10,
+Visa 5530,2026-02,Yes,2876.10,3540.92,Yes,Yes,3540.92,
+Visa 5530,2026-03,Yes,3540.92,2998.33,No,No,,
+Visa 5530,2026-04,Yes,2998.33,3105.76,No,No,,
+Visa 5530,2026-05,Yes,3105.76,2640.18,No,No,,
+Visa 5530,2026-06,Yes,2640.18,3377.51,No,No,,
+Visa 5530,2026-08,Yes,2904.66,3118.27,No,No,,
+Visa 5530,2026-09,Yes,3118.27,2760.04,No,No,,

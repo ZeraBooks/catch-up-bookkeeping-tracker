@@ -1,18 +1,20 @@
 cff-version: 1.2.0
 message: "If you use these files, please cite them as below."
-title: "Catch-up bookkeeping tracker"
+title: "Catch-up Bookkeeping Tracker"
+version: 1.1.0
 type: dataset
 authors:
-  - name: "ZeraBooks"
+  - name: "Zera Books Inc. (ZeraBooks)"
     website: "https://www.zerabooks.com"
-url: "https://github.com/ZeraBooks/catch-up-bookkeeping-tracker"
+url: "https://www.zerabooks.com/catch-up-bookkeeping"
 repository-code: "https://github.com/ZeraBooks/catch-up-bookkeeping-tracker"
 license: CC-BY-4.0
-abstract: "Catch-up bookkeeping fills in months that were never recorded. You start from the last month whose closing balance you trust, gather every bank and card statement since then, and work the months oldest first, reconciling each one before the next. This repo has a month-by-month tracker for every account, a script that lists missing statement months and months that don't tie, and a catch-up checklist, with a fictional business nine months behind."
+abstract: "Catch-up bookkeeping fills in months that were never recorded. You start from the last month whose closing balance you trust, gather every bank and card statement since then, and work the months oldest first, reconciling each one before the next. This repo has a month-by-month tracker for every account, a script that lists missing statement months and months that don't tie, and a catch-up checklist, with a fictional business nine months behind. Version 1.1.0 adds a spec, a JSON Schema, eleven rules with IDs, a checker that works out the net change across missing months and writes a statement request list, and three more fictional businesses."
 keywords:
   - catch-up-bookkeeping
   - bookkeeping
   - bank-reconciliation
   - small-business
   - accounting
-date-released: 2026-11-04
+  - validator
+date-released: 2026-11-06

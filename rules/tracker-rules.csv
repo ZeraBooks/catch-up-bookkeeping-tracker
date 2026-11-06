@@ -1,0 +1,12 @@
+id,severity,rule,why it matters
+CU-001,error,"The header is exactly: Account, Month, Statement received, Printed opening, Printed closing, Imported, Reconciled, Books closing, Notes",The checker reads columns by name. A renamed or missing column means a whole kind of check silently stops.
+CU-002,error,Month is YYYY-MM and each account has one row per month,"Months sort as text. Jul 2026 sorts before Jun 2026, which puts the chain out of order."
+CU-003,error,"Statement received, Imported and Reconciled are Yes, No or blank","A Y or a tick mark reads as No, so a done month shows as still to do."
+CU-004,error,A received statement has its printed opening and closing balance. The first row per account (the month you trust) needs its closing,Those two balances are the proof. Without them the chain can't be checked.
+CU-005,error,"Balances are plain numbers: no dollar sign, no thousands comma",Formatted numbers can't be compared to the cent.
+CU-006,error,A month marked Reconciled is also Imported and its books closing equals the printed closing,Reconciled means it ties. A month marked done that doesn't tie hides the one problem the tracker exists to find.
+CU-007,finding,Each statement opens at the previous statement's closing balance,"When months are missing the jump is their combined net change, which tells you what to look for. With nothing missing it is a wrong or mistyped statement."
+CU-008,finding,Every month from the month you trust through the catch-up month has its statement,"Missing statements are the usual reason a catch-up stalls. Older ones can take a week or two to arrive, so ask on day one."
+CU-009,finding,Books closing equals printed closing,A difference carried into the next month gets harder to find with every month added on top.
+CU-010,finding,The month you trust ties: its books closing equals its printed closing,"If the starting point doesn't tie the job is a cleanup first, not a catch-up."
+CU-011,warning,Months are reconciled oldest first,A month reconciled while an earlier one is open has to be checked again when the earlier month changes.

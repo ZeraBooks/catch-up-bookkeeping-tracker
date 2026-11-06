@@ -1,0 +1,76 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/ZeraBooks/catch-up-bookkeeping-tracker/main/schema/catch-up-tracker.schema.json",
+  "title": "Catch-up tracker row",
+  "description": "One row of a catch-up tracker CSV: one account, one month. Every CSV cell is a string. Cross-row rules (the balance chain, missing months, order of work) are in rules/tracker-rules.csv.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "Account",
+    "Month",
+    "Statement received",
+    "Printed opening",
+    "Printed closing",
+    "Imported",
+    "Reconciled",
+    "Books closing",
+    "Notes"
+  ],
+  "properties": {
+    "Account": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Account name with the last four digits, e.g. Checking 2201. Same spelling on every row."
+    },
+    "Month": {
+      "type": "string",
+      "pattern": "^[0-9]{4}-(0[1-9]|1[0-2])$",
+      "description": "Statement month, YYYY-MM. The earliest row per account is the last month you trust."
+    },
+    "Statement received": {
+      "type": "string",
+      "enum": [
+        "Yes",
+        "No",
+        ""
+      ],
+      "description": "Yes once the PDF statement is in hand."
+    },
+    "Printed opening": {
+      "type": "string",
+      "pattern": "^$|^-?(0|[1-9][0-9]*)(\\.[0-9]{1,2})?$",
+      "description": "Opening balance printed on the statement. Blank on the trusted row."
+    },
+    "Printed closing": {
+      "type": "string",
+      "pattern": "^$|^-?(0|[1-9][0-9]*)(\\.[0-9]{1,2})?$",
+      "description": "Closing balance printed on the statement. For cards, the amount owed."
+    },
+    "Imported": {
+      "type": "string",
+      "enum": [
+        "Yes",
+        "No",
+        ""
+      ],
+      "description": "Yes once the month's transactions are recorded in the books."
+    },
+    "Reconciled": {
+      "type": "string",
+      "enum": [
+        "Yes",
+        "No",
+        ""
+      ],
+      "description": "Yes only when Books closing equals Printed closing."
+    },
+    "Books closing": {
+      "type": "string",
+      "pattern": "^$|^-?(0|[1-9][0-9]*)(\\.[0-9]{1,2})?$",
+      "description": "Closing balance the books show for this account and month."
+    },
+    "Notes": {
+      "type": "string"
+    }
+  }
+}

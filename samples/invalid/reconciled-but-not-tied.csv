@@ -1,0 +1,5 @@
+Account,Month,Statement received,Printed opening,Printed closing,Imported,Reconciled,Books closing,Notes
+Checking 1100,2026-05,Yes,,5000.00,Yes,Yes,5000.00,Last month you trust
+Checking 1100,2026-06,Yes,5000.00,5250.00,Yes,Yes,5205.00,
+Checking 1100,2026-07,Yes,5250.00,5129.50,No,No,,
+Checking 1100,2026-08,Yes,5129.50,5439.75,No,No,,

@@ -1,0 +1,5 @@
+Account,Month,Statement received,Printed opening,Printed closing,Imported,Reconciled,Books closing,Notes
+Checking 9044,2026-03,Yes,,9870.12,Yes,No,9412.12,Owner thought March was right
+Checking 9044,2026-04,Yes,9870.12,8567.57,No,No,,
+Checking 9044,2026-05,Yes,8567.57,10777.65,No,No,,
+Checking 9044,2026-06,Yes,10777.65,10137.34,No,No,,
