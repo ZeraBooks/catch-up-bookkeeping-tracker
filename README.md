@@ -1,6 +1,6 @@
 # Catch-up bookkeeping tracker
 
-Catch-up bookkeeping fills in months that were never recorded. You start from the last month whose closing balance you trust, gather every bank and card statement since then, and work the months oldest first, reconciling each one before the next. [ZeraBooks](https://www.zerabooks.com/catch-up-bookkeeping) does catch-up for you, quoted once after a free call. This repo is the tracker to run it yourself, with a checker that says what's missing and what to do next.
+Catch-up bookkeeping fills in months that were never recorded. You start from the last month whose closing balance you trust, gather every bank and card statement since then, and work the months oldest first, reconciling each one before the next. With [ZeraBooks](https://www.zerabooks.com/catch-up-bookkeeping), you upload your past statements and ZeraBooks does those months at no extra charge. This repo is the tracker to run it yourself, with a checker that says what's missing and what to do next.
 
 What's here:
 
