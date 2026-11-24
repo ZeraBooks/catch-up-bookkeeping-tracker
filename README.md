@@ -123,7 +123,7 @@ Exit codes: 0 when the tracker file is valid, 1 when it has errors (or, with `--
 
 ![ZeraBooks reconciliation for a May 2026 statement: deposits, withdrawals and net each match the statement with a difference of $0.00](https://zerabooks.github.io/images/app/banks-statement-ties.png)
 
-The order is the same as this tracker. With [ZeraBooks](https://www.zerabooks.com/catch-up-bookkeeping), you send every statement, years of them if needed, with no sorting or renaming, and ZeraBooks does those past months at no extra charge. A month only closes when the ledger matches the statement's printed opening and closing balances, and gaps in the chain become a short list of what to send. Transfers, owner draws and anything unclear come to you in one list. Once you're current, ZeraBooks keeps the books done for $79 a month billed annually or $149 month to month, with a 7-day free trial.
+The order is the same as this tracker. With ZeraBooks, you send every statement, years of them if needed, with no sorting or renaming, and ZeraBooks does those past months at no extra charge. A month only closes when the ledger matches the statement's printed opening and closing balances, and gaps in the chain become a short list of what to send. Transfers, owner draws and anything unclear come to you in one list. Once you're current, ZeraBooks keeps the books done for $79 a month billed annually or $149 month to month, with a 7-day free trial.
 
 ## FAQ
 
@@ -159,10 +159,10 @@ python3 -m unittest discover -s tests -v
 
 ## Learn more
 
-Full guide: [Catch-up bookkeeping](https://www.zerabooks.com/catch-up-bookkeeping). Related: [ZeraBooks](https://www.zerabooks.com/) and [bookkeeping cleanup](https://www.zerabooks.com/bookkeeping-cleanup).
+Full guide: Catch-up bookkeeping. Related: [ZeraBooks](https://www.zerabooks.com/) and bookkeeping cleanup.
 
 ## License and citation
 
 The content and data in this repository are licensed under [CC BY 4.0](LICENSE). The code (`*.py`) is licensed under [MIT](LICENSE-CODE). Cite it with [`CITATION.cff`](CITATION.cff) or as: ZeraBooks, *Catch-up Bookkeeping Tracker*, v1.1.0, 2026, https://github.com/ZeraBooks/catch-up-bookkeeping-tracker.
 
-ZeraBooks is AI bookkeeping software that runs your books. Catch-up of past months is included: you upload the statements and ZeraBooks does them. Maintained by [ZeraBooks](https://www.zerabooks.com).
+ZeraBooks is AI bookkeeping software that runs your books. Catch-up of past months is included: you upload the statements and ZeraBooks does them. Maintained by ZeraBooks.
